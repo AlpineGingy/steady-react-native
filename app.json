@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "My app",
+    "slug": "my-app",
+    "extra": {
+      "eas": {
+        "projectId": "ca7ad6c1-e04c-45aa-838b-c14e6ace09e0"
+      }
+    },
+    "android": {
+      "package": "com.alpinegingy.myapp"
+    }
+  }
+}
