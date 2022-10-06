@@ -19,8 +19,8 @@ const todayScore = async() =>{
     const tokenResponse = await fetch('https://dev.stedi.me/login',{
   method: 'POST',
   body:JSON.stringify({
-    userName: "rom19010@byui.edu",
-    password:"Patricia2596@"
+    userName: "andruw.sorensen@gmail.com",
+    password:"P@ssw0rd"
   })
 });
 
