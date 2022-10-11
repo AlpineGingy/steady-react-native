@@ -4,4 +4,4 @@ const hello = ()=>{
 
 }
 
-export {hello};
+export default hello;

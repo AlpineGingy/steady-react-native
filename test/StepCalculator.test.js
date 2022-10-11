@@ -1,5 +1,6 @@
-import getSpikesFromAccelerometer from '../utils/StepCalculator';
-import {createObjectCsvWriter} from 'csv-writer';
+import getSpikesFromAccelerometer from '../utils/StepCalculator.js';
+import createObjectCsvWriter from 'csv-writer';
+import assert from 'assert';
 
 it ("Should Show 60 Steps Taken", ()=>{
 
@@ -55,8 +56,6 @@ accelerometerReadings.forEach((recentAccelerationData)=>{
     
 });
 
-
-expect(steps.length).toBe(32);//There were 32 visible in this test data, while only the first 30 were intentional!
-
+assert.equal(steps.length, 32); //There were 32 visible in this test data, while only the first 30 were intentional!
 
 });
